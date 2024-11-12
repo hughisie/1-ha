@@ -70,6 +70,20 @@ body {
   text-align: center;
 }
 
+/* Header Image */
+.header-image {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+}
+
+.header-image:hover {
+  transform: scale(1.02);
+}
+
 /* Content Section */
 .content-section {
   background: #fff;
